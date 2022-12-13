@@ -25,7 +25,7 @@ public class Util {
                 if (!connection.isClosed()) {
                     System.out.println("Соединение установлено!");
                 }
-                connection.close();
+//                connection.close();
             } catch (SQLException e) {
                 System.err.println("Не удалось загрузить класс Драйвер!");
 
